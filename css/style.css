@@ -1,0 +1,203 @@
+.calculator {
+  display: grid;
+  grid-template-columns: 550px 263px 263px;
+  grid-template-rows: 50px 235px;
+  grid-column-gap: 30px;
+  grid-row-gap: 15px;
+}
+
+.pick {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: 20px 225px;
+  grid-row-gap: 15px;
+  grid-column-gap: 55px;
+}
+
+.pick__form-type {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 120px 120px;
+  grid-template-rows: 40px 40px;
+}
+
+.pick__form-maker {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 120px 120px;
+  grid-template-rows: 40px 40px 40px 40px;
+  grid-row-gap: 10px;
+}
+
+.volume {
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-template-columns: 263px 263px;
+  grid-template-rows: 75px 75px;
+  grid-column-gap: 30px;
+  grid-row-gap: 24px;
+}
+
+.grid:nth-child(7) {
+  display: grid;
+  grid-template-rows: 40px 75px;
+  grid-gap: 24px;
+}
+
+.grid:nth-child(8) {
+  display: grid;
+  grid-template-rows: 40px 75px;
+  grid-gap: 24px;
+}
+
+.grid4:nth-child(2) {
+  display: grid;
+  grid-template-rows: 20px 40px;
+  grid-gap: 15px;
+  justify-content: center;
+}
+
+.q {
+  text-align: center;
+}
+
+.js-minus-btn {
+  border: none;
+  background-color: #F2F3F7;
+  width: 37.89px;
+  height: 40px;
+}
+
+.js-plus-btn {
+  border: none;
+  background-color: #F2F3F7;
+  width: 37.89px;
+  height: 40px;
+}
+
+.js-number {
+  width: 37.89px;
+  height: 40px;
+  border: none;
+  padding-left: 10px;
+}
+
+.pick__input_button {
+  display: block;
+}
+
+.pick__input_button input[type=radio] {
+  display: none;
+  margin: 0px;
+}
+
+.pick__input_button label {
+  display: block;
+  cursor: pointer;
+  background-color: white;
+  border: 1.5px solid #F2F3F7;
+  width: 117px;
+  height: 37px;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* Checked */
+
+.pick__input_button input[type=radio]:checked + label {
+  background: #CC0033;
+  color: white;
+}
+
+/* Hover */
+
+.pick__input_button label:hover {
+  color: #666;
+}
+
+.tittle {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+  margin-top: 93px;
+}
+
+.calculator__head-name {
+  text-align: center;
+  margin: 0px;
+  line-height: 50px;
+  background-color: #F2F3F7;
+}
+
+.text {
+  margin: 0px;
+  font-size: 16px;
+}
+
+.item {
+  width: 809px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.item__text {
+  text-align: center;
+}
+
+.item__text_red {
+  color: #CC0033;
+}
+
+.resul {
+  background-color: #F2F3F7;
+  width: 1140px;
+  height: 92px;
+  margin-top: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.total {
+  width: 390px;
+  font-size: 32px;
+}
+
+.form__phone {
+  outline: none;
+  border: none;
+  width: 209px;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 15px;
+  margin-right: 10px;
+}
+
+.form__button {
+  width: 180.5px;
+  height: 50px;
+  background: #FFD200;
+  border-radius: 5px;
+  border: none;
+}
+
+.volume__name {
+  margin: 0px;
+  margin-bottom: 15px;
+  width: 113, 67;
+}
+
+.volume-box {
+  margin: auto;
+}
+
+.texture {
+  display: none;
+}

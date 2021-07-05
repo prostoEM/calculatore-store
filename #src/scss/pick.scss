@@ -1,0 +1,33 @@
+.pick__input_button {
+	display: block;
+}
+.pick__input_button input[type=radio] {
+	display: none;
+    margin: 0px;
+}
+.pick__input_button label {
+	display: block;
+	cursor: pointer;
+	background-color: white;
+    border: 1.5px solid #F2F3F7;
+    width: 117px;
+    height: 37px;
+    text-align: center;
+    line-height: 40px;
+ 
+}
+ 
+/* Checked */
+.pick__input_button input[type=radio]:checked + label {
+	background: #CC0033;
+    color: white;
+}
+ 
+/* Hover */
+.pick__input_button label:hover {
+	color: #666;
+}
+ 
+
+
+

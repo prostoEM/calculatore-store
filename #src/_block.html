@@ -1,0 +1,62 @@
+<div class="box">
+    <h2 class="tittle">Расчет стоимости натяжных потолков с установкой</h2>
+    <div class="calculator">
+        <div class="calculator__head">
+            <h2 class="calculator__head-name">1. Материал</h2>
+        </div>
+        <div class="calculator__head">
+            <h2 class="calculator__head-name">2. Помещение</h2>
+        </div>
+        <div class="calculator__head">
+            <h2 class="calculator__head-name">3. Освещение</h2>
+        </div>
+        <div class="pick">
+            <div class="type">
+                <p class="text">Тип фактуры</p>
+            </div>
+            <div class="maker">
+                <p class="text">Производитель</p>
+            </div>
+            <div>@@include('_formPick.html')</div>
+            <div class="texture" id="block-1">@@include('_formPickMatt.html')</div>
+            <div class="texture" id="block-2">@@include('_formPickGlossy.html')</div>
+            <div class="texture" id="block-3">@@include('_formPickSatin.html')</div>
+            <div class="texture" id="block-4">@@include('_formPickTextile.html')</div>
+        </div>
+        <div class="volume">
+            <div class="volume-box">
+                <p class="volume__name">Площадь, м2</p>
+                @@include('_buttonMetr.html')
+            </div>
+            <div class="volume-box">
+                <p class="volume__name">Светильники, шт</p>
+                @@include('_buttonPlus.html')
+            </div>
+            <div class="volume-box">
+                <p class="volume__name">Углы, шт</p>
+                @@include('_buttonPlus.html')
+            </div>
+            <div class="volume-box">
+                <p class="volume__name">Люстры, шт</p>
+                @@include('_buttonPlus.html')
+            </div>
+
+        </div>
+    </div> 
+
+
+
+        <div class="item">
+            <p class="item__text text"><span class="item__text_red">Если введённые вами параметры верны</span>,
+                то это окончательная стоимость полотен с установкой!
+            <br>Фактуру, цвет, аксессуары можно выбрать по образцам у замерщика.</p>
+        </div>
+        <div class="resul">
+            <div class="total">Иоговая стоимость: <span id="summ">0</span> р</div>
+            <form class="form">
+                <input type="tel" placeholder="Ваш телефон" class="form__phone">
+                <input type="button" value="Оформить заказ" class="form__button">
+            </form>
+        </div>
+
+    </div>

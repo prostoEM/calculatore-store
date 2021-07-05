@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>EM</title>
+</head>
+<body>
+    <div class="container">
+    <div class="box">
+    <h2 class="tittle">Расчет стоимости натяжных потолков с установкой</h2>
+    <div class="calculator">
+        <div class="calculator__head">
+            <h2 class="calculator__head-name">1. Материал</h2>
+        </div>
+        <div class="calculator__head">
+            <h2 class="calculator__head-name">2. Помещение</h2>
+        </div>
+        <div class="calculator__head">
+            <h2 class="calculator__head-name">3. Освещение</h2>
+        </div>
+        <div class="pick">
+            <div class="type">
+                <p class="text">Тип фактуры</p>
+            </div>
+            <div class="maker">
+                <p class="text">Производитель</p>
+            </div>
+            <div><form class="pick__form-type">
+<div class="pick__input_button">
+	<input id="radio-1" type="radio" name="radio_pick" value="1" >
+	<label for="radio-1">Матовые</label>
+</div>
+ 
+<div class="pick__input_button">
+	<input id="radio-2" type="radio" name="radio_pick" value="2" checked>
+	<label for="radio-2">Глянцевые</label>
+</div>
+ 
+<div class="pick__input_button">
+	<input id="radio-3" type="radio" name="radio_pick" value="3">
+	<label for="radio-3">Сатиновые</label>
+</div>
+ 
+<div class="pick__input_button">
+	<input id="radio-4" type="radio" name="radio_pick" value="4">
+	<label for="radio-4">Тканевые</label>
+</div>
+
+</form></div>
+            <div class="texture" id="block-1"><form class="pick__form-maker" id='form--calc' >
+	<div class="pick__input_button ">
+		<input id="radio_makerMatt-1" class="calc__input" type="radio" name="radio_maker" value="140" checked>
+		<label for="radio_makerMatt-1">Classic</label>
+	</div>
+
+	<div class="pick__input_button ">
+		<input id="radio_makerMatt-2" class="calc__input" type="radio" name="radio_maker" value="390">
+		<label for="radio_makerMatt-2">Pongs</label>
+	</div>
+
+	<div class="pick__input_button ">
+		<input id="radio_makerMatt-3" class="calc__input" type="radio" name="radio_maker" value="290">
+		<label for="radio_makerMatt-3">Evolution</label>
+	</div>
+
+	<div class="pick__input_button ">
+		<input id="radio_makerMatt-4" class="calc__input" type="radio" name="radio_maker" value="440">
+		<label for="radio_makerMatt-4">Teqtum</label>
+	</div>
+
+	<div class="pick__input_button ">
+		<input id="radio_makerMatt-5" class="calc__input" type="radio" name="radio_maker" value="190">
+		<label for="radio_makerMatt-5">Premium</label>
+	</div>
+
+	<div class="pick__input_button ">
+		<input id="radio_makerMatt-6" class="calc__input" type="radio" name="radio_maker" value="660">
+		<label for="radio_makerMatt-6">Lumfer</label>
+	</div>
+
+	<div class="pick__input_button ">
+		<input id="radio_makerMatt-7" class="calc__input" type="radio" name="radio_maker" value="390">
+		<label for="radio_makerMatt-7">Cold Stretch</label>
+	</div>
+</form></div>
+            <div class="texture" id="block-2"><form class="pick__form-maker" id='form--calc'>
+	<div class="pick__input_button calc__input">
+		<input id="radio_makerGlossy-1" type="radio" name="radio_maker" value="1" checked>
+		<label for="radio_makerGlossy-1">Classic</label>
+	</div>
+
+	<div class="pick__input_button calc__input">
+		<input id="radio_makerGlossy-2" type="radio" name="radio_maker" value="2">
+		<label for="radio_makerGlossy-2">Pongs</label>
+	</div>
+
+	<div class="pick__input_button calc__input">
+		<input id="radio_makerGlossy-3" type="radio" name="radio_maker" value="3">
+		<label for="radio_makerGlossy-3">Evolution</label>
+	</div>
+
+	
+	<div class="pick__input_button calc__input">
+		<input id="radio_makerGlossy-5" type="radio" name="radio_maker" value="5">
+		<label for="radio_makerGlossy-5">Premium</label>
+	</div>
+
+	<div class="pick__input_button calc__input">
+		<input id="radio_makerGlossy-6" type="radio" name="radio_maker" value="6">
+		<label for="radio_makerGlossy-6">Lumfer</label>
+	</div>
+
+
+</form></div>
+            <div class="texture" id="block-3"><form class="pick__form-maker" id='form--calc'>
+	<div class="pick__input_button calc__input">
+		<input id="radio_makerSatin-1" type="radio" name="radio_maker" value="1" checked>
+		<label for="radio_makerSatin-1">Classic</label>
+	</div>
+
+	<div class="pick__input_button calc__input">
+		<input id="radio_makerSatin-2" type="radio" name="radio_maker value="2">
+		<label for="radio_makerSatin-2">Pongs</label>
+	</div>
+
+	<div class="pick__input_button calc__input">
+		<input id="radio_makerSatin-3" type="radio" name="radio_maker" value="3">
+		<label for="radio_makerSatin-3">Evolution</label>
+	</div>
+
+	
+	<div class="pick__input_button calc__input">
+		<input id="radio_makerSatin-5" type="radio" name="radio_maker" value="5">
+		<label for="radio_makerSatin-5">Premium</label>
+	</div>
+
+	<div class="pick__input_button calc__input">
+		<input id="radio_makerSatin-6" type="radio" name="radio_maker" value="6">
+		<label for="radio_makerSatin-6">Lumfer</label>
+	</div>
+
+
+</form></div>
+            <div class="texture" id="block-4"><form class="pick__form-maker" >
+	<div class="pick__input_button calc__input">
+		<input id="radio_makerTextile-1" type="radio" name="radio_maker" value="1" checked>
+		<label for="radio_makerTextile-1">D-Premium</label>
+	</div>
+
+	<div class="pick__input_button calc__input">
+		<input id="radio_makerTextile-2" type="radio" name="radio_maker" value="2">
+		<label for="radio_makerTextile-2">Clipso</label>
+	</div>
+
+	<div class="pick__input_button calc__input">
+		<input id="radio_makerTextile-3" type="radio" name="radio_maker" value="3">
+		<label for="radio_makerTextile-3">Cerutti</label>
+	</div>
+
+
+</form></div>
+        </div>
+        <div class="volume">
+            <div class="volume-box">
+                <p class="volume__name">Площадь, м2</p>
+                <div class="wrapper" id="calc_volume">
+    <button class="js-minus-btn" type="button">-</button>
+    <input id="number-metr" class="js-number" type="number" name="number" value="0" min="0">
+    <button class="js-plus-btn" type="button">+</button>
+</div>
+
+            </div>
+            <div class="volume-box">
+                <p class="volume__name">Светильники, шт</p>
+                <div class="wrapper" id="calc_volume">
+    <button class="js-minus-btn" type="button">-</button>
+    <input id="number-diet" class="js-number" type="number" name="number" value="0" min="0">
+    <button class="js-plus-btn" type="button">+</button>
+</div>
+
+            </div>
+            <div class="volume-box">
+                <p class="volume__name">Углы, шт</p>
+                <div class="wrapper" id="calc_volume">
+    <button class="js-minus-btn" type="button">-</button>
+    <input id="number-diet" class="js-number" type="number" name="number" value="0" min="0">
+    <button class="js-plus-btn" type="button">+</button>
+</div>
+
+            </div>
+            <div class="volume-box">
+                <p class="volume__name">Люстры, шт</p>
+                <div class="wrapper" id="calc_volume">
+    <button class="js-minus-btn" type="button">-</button>
+    <input id="number-diet" class="js-number" type="number" name="number" value="0" min="0">
+    <button class="js-plus-btn" type="button">+</button>
+</div>
+
+            </div>
+
+        </div>
+    </div> 
+
+
+
+        <div class="item">
+            <p class="item__text text"><span class="item__text_red">Если введённые вами параметры верны</span>,
+                то это окончательная стоимость полотен с установкой!
+            <br>Фактуру, цвет, аксессуары можно выбрать по образцам у замерщика.</p>
+        </div>
+        <div class="resul">
+            <div class="total">Иоговая стоимость: <span id="summ">0</span> р</div>
+            <form class="form">
+                <input type="tel" placeholder="Ваш телефон" class="form__phone">
+                <input type="button" value="Оформить заказ" class="form__button">
+            </form>
+        </div>
+
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.min.js"></script>
+</body>
+</html>

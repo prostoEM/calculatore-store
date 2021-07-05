@@ -1,0 +1,101 @@
+@import 'grid';
+@import 'buttonPlus';
+@import 'pick';
+
+.tittle{
+    margin-bottom: 40px;
+    text-align: center;
+    }
+
+.container {
+    width: 1140px;
+    margin: auto;
+    margin-top: 93px;
+}
+
+.calculator__head-name{
+    text-align: center;
+    margin: 0px;
+    line-height: 50px;
+    background-color:  #F2F3F7;
+}
+
+.text{
+    margin: 0px;
+    font-size: 16px;
+
+}
+
+
+
+
+
+
+.item{
+width: 809px;
+margin: auto;
+margin-top: 30px;
+}
+
+.item__text{
+    text-align: center;
+}
+
+.item__text_red{
+  color: #CC0033;
+}
+
+
+
+
+.resul{
+    background-color: #F2F3F7;
+    width: 1140px;
+    height: 92px;
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.total{
+    width: 390px;
+    font-size: 32px;
+}
+
+.form__phone{
+outline: none;
+border: none;
+width: 209px;
+height: 50px;
+border-radius: 5px;
+padding-left: 15px;
+margin-right: 10px;
+}
+
+.form__button{
+    width: 180.5px;
+    height: 50px;
+    background: #FFD200;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+.volume__name{
+    margin: 0px;
+    margin-bottom: 15px;
+    width: 113,67;
+}
+
+
+.volume-box{
+   margin: auto;
+}
+
+
+
+.texture{
+    display: none;
+}
